@@ -21,6 +21,7 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
+      time: 7500
     proxy: 🎯 全球直连
     
 proxies: []
