@@ -151,7 +151,7 @@ rule-providers:
   ChinaDomain: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"}
   ChinaCompanyIP: { <<: *ip, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml"}
   NAS: { <<: *domain, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/NAS.yaml"}
-  BanksHK: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/BanksHongKong.yaml"}
+  BanksHK: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/BanksHongkong.yaml"}
   Telegram: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"}
   OpenAi: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml"}
   Gemini: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/Gemini.yaml"}
