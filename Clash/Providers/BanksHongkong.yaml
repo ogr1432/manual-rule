@@ -1,0 +1,13 @@
+payload:
+  # 直连列表
+
+  # 中银香港
+  - 'DOMAIN-SUFFIX,bochk.com'
+  - 'DOMAIN,transaction.bochk.com'
+
+  # 汇丰香港
+  - 'DOMAIN-SUFFIX,hsbc.com.hk'
+  - 'DOMAIN,hsbc.edge.sdk.awswaf.com'
+
+  # 招商永隆
+  - 'DOMAIN-SUFFIX,cmbwinglungbank.com'
