@@ -1,0 +1,43 @@
+# NAS
+DOMAIN-SUFFIX,edge.api.myqnapcloud.com
+DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,myqnapcloud.com
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,checkipv6.synology.com
+DOMAIN-SUFFIX,checkport.synology.com
+DOMAIN-SUFFIX,ddns.synology.com
+DOMAIN-SUFFIX,account.synology.com
+DOMAIN-SUFFIX,synologydownload.com
+
+# Oracle中国
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-KEYWORD,oracle
+
+# investing直连
+DOMAIN-SUFFIX,investing.com
+
+# windy直连
+DOMAIN-SUFFIX,windy.com
+
+# 节点域名强制直连 (解决局域网手机测速 Timeout 问题)
+DOMAIN-SUFFIX,mojcn.com
+DOMAIN-SUFFIX,cnmjcn.cyou
+DOMAIN-SUFFIX,cnmjin.net
+
+# recaptcha
+DOMAIN,amcs-captcha-prod-us-east-1.s3.dualstack.us-east-1.amazonaws.com
+DOMAIN,us-east-1.threat-mitigation.aws.amazon.com
+DOMAIN,cdn.us-east-1.threat-mitigation.aws.amazon.com
+DOMAIN-SUFFIX,aws.amazon.com
+
+# 解决ssh 22端口无法连接
+DST-PORT,22
+# IP-CIDR,你的VPS_IP/32
+
+# 自有域名&VPS IP
+DOMAIN-SUFFIX,pp.ua
+DOMAIN-SUFFIX,dpdns.org
+DOMAIN-SUFFIX,22222.org
+IP-CIDR,161.33.17.181/32
+# IP-CIDR,你的VPS_IP/32
