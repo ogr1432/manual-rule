@@ -96,7 +96,8 @@ dns:
       - 8.8.8.8
       - 1.1.1.1
 
-  fake-ip-filter: []
+  fake-ip-filter: 
+    - pq.hy.jp.yydjc.top
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
