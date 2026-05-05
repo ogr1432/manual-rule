@@ -1,0 +1,160 @@
+# DNS防泄露版本（通用 + AdGuard兼容）
+
+proxy-providers:
+  pq:
+    url: "https://dash.pqjc.site/api/v1/pq/77d1937a92916710ffe17021afffe99e"
+    type: http
+    filter: "(?i)新加坡|日本|美国|台湾|韩国"
+    interval: 43200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🎯 全球直连
+
+  mj:
+    url: "https://47.112.97.173:5000/api/v1/client/subscribe?token=e2014b85bccbd5ce49734af632b84862"
+    type: http
+    filter: "(?i)新加坡|日本|美国|台湾|韩国"
+    interval: 43200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+    proxy: 🎯 全球直连
+    
+proxies: []
+
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 15
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: ["any:53", "tcp://any:53"]
+  auto-route: false
+  auto-redirect: false
+  auto-detect-interface: false
+
+# ================= DNS 核心（已重构） =================
+dns:
+  enable: true
+  ipv6: false
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+
+  # 启动用，避免循环解析
+  default-nameserver:
+    - 223.5.5.5
+    - 1.1.1.1
+
+  proxy-server-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+
+  # 通用写法（会被你OpenClash覆写）
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+
+  # ⭐关键：强制DNS分流（不会被覆写）
+  nameserver-policy:
+    geosite:cn:
+      - 127.0.0.1:1745
+      - 127.0.0.1:5336
+      - https://223.5.5.5/dns-query
+
+    geosite:geolocation-!cn:
+      - 8.8.8.8
+      - 1.1.1.1
+
+  fake-ip-filter: []
+
+proxy-groups:
+  - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
+  - {name: 🌍 国外媒体, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 💬 Ai平台, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 📲 电报信息, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 🌍 审计资讯, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 🎯 全球直连, type: select, proxies: [DIRECT, 🚀 节点选择]}
+  - {name: 🛑 全球拦截, type: select, proxies: [REJECT, DIRECT]}
+  - {name: 🍃 应用净化, type: select, proxies: [REJECT, DIRECT]}
+  - {name: 🐟 漏网之鱼, type: select, use: [pq, mj], proxies: [🌍 国外媒体, 🚀 节点选择, 🎯 全球直连]}
+
+rules:
+  - RULE-SET,GlobalDirect_LAN,🎯 全球直连
+  - RULE-SET,GlobalBlockAD,🛑 全球拦截
+  - RULE-SET,AppClean,🍃 应用净化
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Apple,🎯 全球直连
+  - RULE-SET,Microsoft,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIP,🎯 全球直连
+  - RULE-SET,NAS,🎯 全球直连
+  - RULE-SET,BanksHK,🎯 全球直连
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,OpenAi,💬 Ai平台
+  - RULE-SET,Gemini,💬 Ai平台
+  - RULE-SET,AI,💬 Ai平台
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Bloomberg,🌍 审计资讯
+  - RULE-SET,Proxylite,🚀 节点选择
+  - RULE-SET,GoogleFCM,🚀 节点选择
+  - GEOIP,LAN,🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: yaml}
+  domain: &domain {type: http, interval: 86400, behavior: classical, format: text}
+  class: &class {type: http, interval: 86400, behavior: classical, format: yaml}
+
+rule-providers:
+  GlobalDirect_LAN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"}
+  GlobalBlockAD: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/BanAD.yaml"}
+  AppClean: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"}
+  GoogleCN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"}
+  SteamCN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"}
+  Apple: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Apple.yaml"}
+  Microsoft: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"}
+  ChinaDomain: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"}
+  ChinaCompanyIP: { <<: *ip, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ChinaCompanyIp.yaml"}
+  NAS: { <<: *domain, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/NAS.list"}
+  BanksHK: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/BanksHongKong.yaml"}
+  Telegram: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"}
+  OpenAi: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/OpenAi.yaml"}
+  Gemini: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Ruleset/Gemini.yaml"}
+  AI: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/AI.yaml"}
+  ProxyMedia: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml"}
+  Bloomberg: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Bloomberg.yaml"}
+  Proxylite: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/ProxyLite.yaml"}
+  GoogleFCM: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"}
