@@ -127,6 +127,10 @@ payload:
   - DOMAIN,gamer2-cds.cdn.hinet.net
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
+    
+  # Bloomberg媒体与视频流
+  - DOMAIN-SUFFIX,bloomberg.tv
+  - DOMAIN-SUFFIX,bloombergmedia.com
 
   # DAZN
   #   
