@@ -1,0 +1,14 @@
+payload:
+  # 官方主站及新闻
+  - DOMAIN-SUFFIX,bloomberg.com
+  - DOMAIN-SUFFIX,bloomberg.net
+  - DOMAIN-SUFFIX,bloomberg.org
+  
+  # 数据终端与商业服务
+  - DOMAIN-SUFFIX,bloombergpolska.pl
+  - DOMAIN-SUFFIX,bba.p01.bloomberg.com
+  - DOMAIN-SUFFIX,bba.p02.bloomberg.com
+  - DOMAIN-SUFFIX,bloomberglp.com
+  
+  # 关键字匹配（捕捉子域名或相关 CDN）
+  - DOMAIN-KEYWORD,bloomberg
