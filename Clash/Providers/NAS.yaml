@@ -17,6 +17,7 @@ payload:
 
   # investing直连
   - 'DOMAIN-SUFFIX,investing.com'
+  - 'DOMAIN-SUFFIX,forexpros.com'
 
   # windy直连
   - 'DOMAIN-SUFFIX,windy.com'
