@@ -99,6 +99,12 @@ dns:
 
   fake-ip-filter: 
     - pq.hy.jp.yydjc.top
+    - +.mojcn.com
+    - +.cnmjcn.cyou
+    - +.cnmjin.net
+    - +.globals-download.com
+    - +.xn--ghq880n3na965a
+    - +.yydjc.top
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
