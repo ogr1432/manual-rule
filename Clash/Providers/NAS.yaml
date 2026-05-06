@@ -10,6 +10,11 @@ payload:
   - 'DOMAIN-SUFFIX,account.synology.com'
   - 'DOMAIN-SUFFIX,synologydownload.com'
 
+  # Oracle中国
+  - 'DOMAIN-SUFFIX,oracle.com
+  - 'DOMAIN-SUFFIX,oraclecloud.com
+  - 'DOMAIN-KEYWORD,oracle
+
   # windy直连
   - 'DOMAIN-SUFFIX,windy.com'
 
@@ -26,9 +31,11 @@ payload:
 
   # 解决ssh 22端口无法连接
   - 'DST-PORT,22'
+  # - 'IP-CIDR,你的VPS_IP/32
 
   # 自有域名&VPS IP
   - 'DOMAIN-SUFFIX,pp.ua'
   - 'DOMAIN-SUFFIX,dpdns.org'
   - 'DOMAIN-SUFFIX,aaaaa.org'
   - 'IP-CIDR,161.33.17.181/32'
+  # - 'IP-CIDR,你的VPS_IP/32
