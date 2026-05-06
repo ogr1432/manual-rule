@@ -36,6 +36,5 @@ payload:
   # 自有域名&VPS IP
   - 'DOMAIN-SUFFIX,pp.ua'
   - 'DOMAIN-SUFFIX,dpdns.org'
-  - 'DOMAIN-SUFFIX,aaaaa.org'
   - 'IP-CIDR,161.33.17.181/32'
   # - 'IP-CIDR,你的VPS_IP/32
