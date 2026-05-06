@@ -88,10 +88,6 @@ dns:
 
   # ⭐关键：强制DNS分流（不会被覆写）
   nameserver-policy:
-     'geosite:google':
-      - 8.8.8.8
-      - 1.1.1.1
-  
     geosite:cn:
       - 127.0.0.1:1745
       - 127.0.0.1:5336
