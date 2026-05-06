@@ -576,6 +576,10 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
 
+  # Youtube Revanced
+  - DOMAIN,returnyoutubedislikeapi.com
+  - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
+
   # YouTubeMusic
   #   #   #   #   
   - DOMAIN,music.youtube.com
