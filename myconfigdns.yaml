@@ -105,6 +105,7 @@ dns:
     - +.globals-download.com
     - +.xn--ghq880n3na965a
     - +.yydjc.top
+    - +.xn--ghqu5fm27b67w.com
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
