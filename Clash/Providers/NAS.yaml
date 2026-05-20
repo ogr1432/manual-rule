@@ -34,7 +34,7 @@ payload:
   - 'DOMAIN-SUFFIX,aws.amazon.com'
 
   # 域名注册
-  - 'DOMAIN-SUFFIX,query.domains
+  - 'DOMAIN-SUFFIX,query.domains'
 
   # 解决ssh 22端口无法连接
   - 'DST-PORT,22'
