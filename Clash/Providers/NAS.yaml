@@ -33,6 +33,9 @@ payload:
   - 'DOMAIN,cdn.us-east-1.threat-mitigation.aws.amazon.com'
   - 'DOMAIN-SUFFIX,aws.amazon.com'
 
+  # 域名注册
+  - 'DOMAIN-SUFFIX,query.domains
+
   # 解决ssh 22端口无法连接
   - 'DST-PORT,22'
   # - 'IP-CIDR,你的VPS_IP/32
