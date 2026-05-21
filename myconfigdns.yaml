@@ -109,7 +109,6 @@ dns:
     - +.yydjc.top
     - +.xn--ghqu5fm27b67w.com
     - +.xn--ghq880n3na965a.com
-    - +.anas.pp.ua
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
