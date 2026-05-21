@@ -38,7 +38,11 @@ payload:
   # - 'IP-CIDR,你的VPS_IP/32
 
   # 自有域名&VPS IP
+  - DOMAIN-SUFFIX,xyz
+  - DOMAIN-SUFFIX,art
+  - DOMAIN-SUFFIX,cyou
   - DOMAIN-SUFFIX,cfd
+  - DOMAIN-SUFFIX,pw
   - DOMAIN-SUFFIX,pp.ua
   - DOMAIN-SUFFIX,dpdns.org
   - IP-CIDR,161.33.17.181/32
