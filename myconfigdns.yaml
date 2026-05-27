@@ -84,7 +84,7 @@ dns:
   # 通用写法（会被你OpenClash覆写）
   nameserver:
     - https://223.5.5.5/dns-query
-    - https://1.1.1.1/dns-query
+    - tls://dns.pub
 
   # ⭐关键：强制DNS分流（不会被覆写）
   nameserver-policy:
