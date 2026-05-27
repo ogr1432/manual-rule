@@ -79,8 +79,8 @@ dns:
 
   # 代理节点域名解析服务器，仅用于解析代理节点的域名，如果不填则遵循 nameserver-policy、nameserver 和 fallback 的配置
   proxy-server-nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+    - https://223.6.6.6/dns-query
+    - https://1.12.12.12/dns-query
 
   # 通用写法 默认的域名解析服务器（会被你OpenClash覆写）
   nameserver:
