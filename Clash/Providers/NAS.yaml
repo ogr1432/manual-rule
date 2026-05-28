@@ -16,8 +16,7 @@ payload:
   - DOMAIN-KEYWORD,oracle
 
   # investing直连
-  - DOMAIN-SUFFIX,investing.com
-  - DOMAIN-SUFFIX,forexpros.com
+  - DOMAIN,cn.investing.com
 
   # windy直连
   - DOMAIN-SUFFIX,windy.com
