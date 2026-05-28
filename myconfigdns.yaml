@@ -168,5 +168,5 @@ rule-providers:
   AI: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/AI.yaml"}
   ProxyMedia: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/ProxyMedia.yaml"}
   Bloomberg: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/Bloomberg.yaml"}
-  Proxylite: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/ProxyLite.yaml"}
+  Proxylite: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/ProxyLite.yaml"}
   GoogleFCM: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"}
