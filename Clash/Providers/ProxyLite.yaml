@@ -2,6 +2,10 @@ payload:
   # 代理列表
   
   # mylist以上为自添加-----------------------------
+
+  # investing 代理(streaming 实时数据行情接口)
+  - DOMAIN,streaming.forexpros.com
+  - DOMAIN,streamjs.investing.com
   
   # Revanced
   - DOMAIN,api.revanced.app
