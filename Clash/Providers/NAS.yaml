@@ -17,6 +17,7 @@ payload:
 
   # investing直连
   - DOMAIN,cn.investing.com
+  - DOMAIN,tvc-invdn-cf-com.investing.com
 
   # windy直连
   - DOMAIN-SUFFIX,windy.com
