@@ -15,7 +15,16 @@ payload:
   - DOMAIN-KEYWORD,hcaptcha
   - DOMAIN-SUFFIX,challenges.cloudflare.com
 
-  # 域名注册
+  # cloudflare验证相关
+  - DOMAIN,ax.cloudflare.dev
+  
+  # cloudflare访问相关
+  - DOMAIN,ash.cloudflare.com
+  - DOMAIN,sparrow.cloudflare.com
+  - DOMAIN,cloudflareinsights.com
+  - DOMAIN,platform.dash.cloudflare.com
+
+  # 域名注册购买
   - DOMAIN-SUFFIX,query.domains
   - DOMAIN-SUFFIX,tld-list.com
   
