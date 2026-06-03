@@ -15,9 +15,6 @@ payload:
   - DOMAIN-KEYWORD,hcaptcha
   - DOMAIN-SUFFIX,challenges.cloudflare.com
 
-  # cloudflare验证相关
-  - DOMAIN,ax.cloudflare.dev
-
   # 第三方隐私合规和风险管理
   - DOMAIN-SUFFIX,onetrust.com
   
