@@ -19,7 +19,7 @@ payload:
   - DOMAIN,ax.cloudflare.dev
   
   # cloudflare访问相关
-  - DOMAIN,ash.cloudflare.com
+  - DOMAIN,dash.cloudflare.com
   - DOMAIN,sparrow.cloudflare.com
   - DOMAIN,cloudflareinsights.com
   - DOMAIN,platform.dash.cloudflare.com
