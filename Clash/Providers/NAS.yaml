@@ -10,6 +10,11 @@ payload:
   - DOMAIN-SUFFIX,account.synology.com
   - DOMAIN-SUFFIX,synologydownload.com
 
+  # cloudflare验证相关
+  - DOMAIN,ax.cloudflare.dev
+  - DOMAIN,stun.cloudflare.com
+  - DOMAIN,challenges.cloudlfare.com
+  
   # Oracle中国
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,oraclecloud.com
