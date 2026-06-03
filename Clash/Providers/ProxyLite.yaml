@@ -17,6 +17,9 @@ payload:
 
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
+
+  # 第三方隐私合规和风险管理
+  - DOMAIN-SUFFIX,onetrust.com
   
   # cloudflare访问相关
   - DOMAIN,dash.cloudflare.com
