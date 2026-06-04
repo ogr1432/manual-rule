@@ -15,6 +15,9 @@ payload:
   - DOMAIN-KEYWORD,hcaptcha
   - DOMAIN-SUFFIX,challenges.cloudflare.com
 
+  # PerimeterX (HUMAN Security)
+  - DOMAIN-KEYWORD,perimeterx
+
   # 第三方隐私合规和风险管理
   - DOMAIN-SUFFIX,onetrust.com
   
