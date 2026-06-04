@@ -14,8 +14,6 @@ payload:
   - DOMAIN,ax.cloudflare.dev
   - DOMAIN,stun.cloudflare.com
   - DOMAIN,challenges.cloudlfare.com
-  - IP-CIDR,104.16.0.0/12
-  - IP-CIDR,172.64.0.0/13
   
   # Oracle中国
   - DOMAIN-SUFFIX,oracle.com
