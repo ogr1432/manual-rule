@@ -13,7 +13,6 @@ payload:
 
   # hcaptcha验证相关
   - DOMAIN-KEYWORD,hcaptcha
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
 
   # PerimeterX (HUMAN Security)
   - DOMAIN-KEYWORD,perimeterx
