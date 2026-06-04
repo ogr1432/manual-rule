@@ -13,7 +13,7 @@ payload:
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
   - DOMAIN,stun.cloudflare.com
-  - DOMAIN,challenges.cloudlfare.com
+  - DOMAIN,challenges.cloudflare.com
   
   # Oracle中国
   - DOMAIN-SUFFIX,oracle.com
