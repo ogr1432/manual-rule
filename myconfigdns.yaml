@@ -125,6 +125,7 @@ rules:
   - RULE-SET,GlobalDirect_LAN,🎯 全球直连
   - RULE-SET,GlobalBlockAD,🛑 全球拦截
   - RULE-SET,AppClean,🍃 应用净化
+  - RULE-SET,GoogleCN,🚀 节点选择
   - RULE-SET,SteamCN,🎯 全球直连
   - RULE-SET,Apple,🎯 全球直连
   - RULE-SET,Microsoft,🎯 全球直连
@@ -140,7 +141,6 @@ rules:
   - RULE-SET,Bloomberg,🌍 审计资讯
   - RULE-SET,Proxylite,🚀 节点选择
   - RULE-SET,GoogleFCM,🚀 节点选择
-  - RULE-SET,GoogleCN,🚀 节点选择
   - GEOIP,LAN,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
