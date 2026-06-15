@@ -29,6 +29,10 @@ payload:
   # 域名注册购买
   - DOMAIN-SUFFIX,query.domains
   - DOMAIN-SUFFIX,tld-list.com
+
+  # 加密货币交易平台
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,htx.com
   
   # mylist以上为自添加---------------------------------
   
