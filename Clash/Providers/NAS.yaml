@@ -39,7 +39,7 @@ payload:
   - DOMAIN-SUFFIX,aws.amazon.com
 
   # 影视站
-  - DOMAIN,btsj6.com
+  - DOMAIN-SUFFIX,btsj6.com
 
   # 解决ssh 22端口无法连接
   - DST-PORT,22
