@@ -38,6 +38,9 @@ payload:
   - DOMAIN,cdn.us-east-1.threat-mitigation.aws.amazon.com
   - DOMAIN-SUFFIX,aws.amazon.com
 
+  # 影视站
+  - DOMAIN,btsj6.com
+
   # 解决ssh 22端口无法连接
   - DST-PORT,22
   # - 'IP-CIDR,你的VPS_IP/32
@@ -48,3 +51,4 @@ payload:
   - DOMAIN-SUFFIX,dpdns.org
   - IP-CIDR,161.33.17.181/32
   # - 'IP-CIDR,你的VPS_IP/32
+
