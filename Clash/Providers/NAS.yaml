@@ -10,6 +10,9 @@ payload:
   - DOMAIN-SUFFIX,account.synology.com
   - DOMAIN-SUFFIX,synologydownload.com
 
+  # emby公益服
+  - DOMAIN,emby.bangumi.ca
+  
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
   - DOMAIN,stun.cloudflare.com
