@@ -41,6 +41,15 @@ payload:
   - DOMAIN-SUFFIX,saasexch.com
   - DOMAIN-SUFFIX,appsflayer.com
   - DOMAIN-SUFFIX,htx.com
+
+  # IP归属检测网站
+  - DOMAIN-KEYWORD,ipapi
+  - DOMAIN-KEYWORD,ipinfo
+  - DOMAIN-KEYWORD,myip
+  - DOMAIN,api.ip.sb
+  - DOMAIN,ip.sb
+  - DOMAIN,ident.me
+  - DOMAIN,ip-api.com
   
   # mylist以上为自添加---------------------------------
   
