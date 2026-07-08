@@ -125,6 +125,9 @@ rules:
   - RULE-SET,GlobalDirect_LAN,🎯 全球直连
   - RULE-SET,GlobalBlockAD,🛑 全球拦截
   - RULE-SET,AppClean,🍃 应用净化
+  - RULE-SET,OpenAi,💬 Ai平台
+  - RULE-SET,Gemini,💬 Ai平台
+  - RULE-SET,AI,💬 Ai平台
   - RULE-SET,GoogleCN,🚀 节点选择
   - RULE-SET,SteamCN,🎯 全球直连
   - RULE-SET,Apple,🎯 全球直连
@@ -134,9 +137,6 @@ rules:
   - RULE-SET,NAS,🎯 全球直连
   - RULE-SET,BanksHK,🎯 全球直连
   - RULE-SET,Telegram,📲 电报信息
-  - RULE-SET,OpenAi,💬 Ai平台
-  - RULE-SET,Gemini,💬 Ai平台
-  - RULE-SET,AI,💬 Ai平台
   - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,Bloomberg,🌍 审计资讯
   - RULE-SET,Proxylite,🚀 节点选择
