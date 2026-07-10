@@ -1,0 +1,43 @@
+payload:
+  # 内容：Gemini
+  # 数量：13条
+
+  # === 1. 静态资源大包揽（用 SUFFIX 一劳永逸） ===
+  - DOMAIN-SUFFIX,gstatic.com
+  # === Gemini 核心服务与官方域名 ===
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-SUFFIX,gemini.google.com
+  # === Gemini 网页端与移动端核心静态资源、前端组件 ===
+  # （重点：必须全部捕获，否则 App 界面会卡死或报错）
+  - DOMAIN,gemini.gstatic.com
+  - DOMAIN,lh3.googleusercontent.com
+  - DOMAIN,lh3.google.com
+  # === Google 现代 AI 后台微服务 API（Clients6 家族） ===
+  # （移动端 App 深度依赖这些 API 进行身份验证和流式传输）
+  - DOMAIN,waa-pa.clients6.google.com
+  - DOMAIN,ogads-pa.clients6.google.com
+  - DOMAIN,signaler-pa.clients6.google.com
+  - DOMAIN-KEYWORD,clients6.google
+  # === 移动端 App 认证与安全验证相关（防室外断连） ===
+  - DOMAIN,firebaseinstallations.googleapis.com
+  - DOMAIN,play.googleapis.com
+  # 日志捕捉
+  - DOMAIN,robinfrontend-pa.googleapis.com
+  - DOMAIN,signaler-pa.googleapis.com
+  
+  # 以下默认
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN,subscriptionsfirstparty-pa.googleapis.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,apis.google.com
