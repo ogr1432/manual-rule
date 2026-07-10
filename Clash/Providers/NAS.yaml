@@ -1,4 +1,8 @@
 payload:
+  # DNS
+  - DOMAIN-KEYWORD,pubdefault
+  - DOMAIN-SUFFIX,doh.pub
+
   # NAS
   - DOMAIN-SUFFIX,edge.api.myqnapcloud.com
   - DOMAIN-SUFFIX,qnap.com
