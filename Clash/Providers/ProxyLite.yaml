@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,htx.com
 
   # IP归属检测网站
-  - DOMAIN,ipwho.is
+  - DOMAIN-SUFFIX,ipwho.is
   - DOMAIN-KEYWORD,ipapi
   - DOMAIN-KEYWORD,ipinfo
   - DOMAIN-KEYWORD,myip
