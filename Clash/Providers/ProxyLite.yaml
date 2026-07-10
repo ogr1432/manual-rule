@@ -43,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,htx.com
 
   # IP归属检测网站
+  - DOMAIN,ipwho.is
   - DOMAIN-KEYWORD,ipapi
   - DOMAIN-KEYWORD,ipinfo
   - DOMAIN-KEYWORD,myip
@@ -50,7 +51,7 @@ payload:
   - DOMAIN,ip.sb
   - DOMAIN,ident.me
   - DOMAIN,ip-api.com
-  - DOMAIN,ipwho.is
+  
   
   # mylist以上为自添加---------------------------------
   
