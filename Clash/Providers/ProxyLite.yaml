@@ -50,6 +50,7 @@ payload:
   - DOMAIN,ip.sb
   - DOMAIN,ident.me
   - DOMAIN,ip-api.com
+  - DOMAIN,ipwho.is
   
   # mylist以上为自添加---------------------------------
   
