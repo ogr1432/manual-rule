@@ -8,6 +8,9 @@ payload:
   - DOMAIN-SUFFIX,mcdn.bilivideo.cn
   - DOMAIN-SUFFIX,mcdn.bilivideo.com
   - DOMAIN-SUFFIX,xycdn.com
+  # 调度网址
+  - DOMAIN-SUFFIX,log-upload.bilibili.com
+  - DOMAIN-SUFFIX,grpc.bilibili.com
   # ----------------------以上自添加---------------------------------
 
   # 163
