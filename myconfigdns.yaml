@@ -153,7 +153,7 @@ rule-anchor:
 rule-providers:
   GlobalDirect_LAN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"}
   GlobalBlockAD: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/BanAD.yaml"}
-  AppClean: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"}
+  AppClean: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/BanProgramAD.yaml"}
   GoogleCN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"}
   SteamCN: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"}
   Apple: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Apple.yaml"}
