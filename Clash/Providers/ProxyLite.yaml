@@ -5,8 +5,6 @@ payload:
 
   # bilibili 调度域名
   - DOMAIN,dataflow.biliapi.com
-  - DOMAIN-SUFFIX,biliapi.com
-  - DOMAIN-SUFFIX,biliapi.net
   - IP-CIDR,203.107.1.0/24,no-resolve
 
   
