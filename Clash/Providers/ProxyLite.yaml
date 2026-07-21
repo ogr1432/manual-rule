@@ -3,6 +3,9 @@ payload:
   
   # mylist以上为自添加-----------------------------
 
+  # bilibili 调度域名
+  - DOMAIN,dataflow.biliapi.com
+
   # investing 代理(streaming 实时数据行情接口)
   - DOMAIN-SUFFIX,investing.com
   - DOMAIN-SUFFIX,forexpros.com
