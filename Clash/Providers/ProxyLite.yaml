@@ -5,6 +5,8 @@ payload:
 
   # bilibili 调度域名
   - DOMAIN,dataflow.biliapi.com
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
 
   # investing 代理(streaming 实时数据行情接口)
   - DOMAIN-SUFFIX,investing.com
