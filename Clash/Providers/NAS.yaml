@@ -1,6 +1,5 @@
 payload:
   # DNS
-  - DOMAIN-KEYWORD,pubdefault
   - DOMAIN-SUFFIX,doh.pub
 
   # NAS
