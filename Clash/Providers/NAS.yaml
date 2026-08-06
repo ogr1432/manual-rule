@@ -4,6 +4,7 @@ payload:
 
   # Carriers
   - DOMAIN-SUFFIX,maersk.com
+  - DOMAIN-SUFFIX,maerskline.com
   
   # NAS
   - DOMAIN-SUFFIX,edge.api.myqnapcloud.com
