@@ -2,6 +2,9 @@ payload:
   # DNS
   - DOMAIN-SUFFIX,doh.pub
 
+  # Carriers
+  - DOMAIN-SUFFIX,maersk.com
+  
   # NAS
   - DOMAIN-SUFFIX,edge.api.myqnapcloud.com
   - DOMAIN-SUFFIX,qnap.com
