@@ -19,6 +19,8 @@ payload:
 
   # emby公益服
   - DOMAIN,emby.bangumi.ca
+  - DOMAIN,goemby.entertang.work
+  - DOMAIN-SUFFIX,feimu.tv
   
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
