@@ -110,6 +110,10 @@ dns:
     - +.xn--ghqu5fm27b67w.com
     - +.xn--ghq880n3na965a.com
     - +.challenges.cloudflare.com
+    - +.yusen6.ccwu.cc
+    - +.emby.yusen.us.ci
+    - +.embya.yusen.cyou
+    - +.emby.yusen.cc.cd
 
 proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
