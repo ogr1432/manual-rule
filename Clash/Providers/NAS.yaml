@@ -21,11 +21,6 @@ payload:
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
-  - DOMAIN-SUFFIX,yusen6.ccwu.cc
-  - DOMAIN-SUFFIX,yusen.us.ci:443
-  - DOMAIN-SUFFIX,yusen.cyou:443
-  - DOMAIN-SUFFIX,yusen.cc.cd:443
-  - DOMAIN-KEYWORD,yusen
   
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
