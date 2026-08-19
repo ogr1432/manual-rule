@@ -11,6 +11,8 @@ payload:
   # 调度网址
   - DOMAIN-SUFFIX,log-upload.bilibili.com
   - DOMAIN-SUFFIX,grpc.bilibili.com
+  # 金山卫士
+  - DOMAIN,kns.duba.net
   # ----------------------以上自添加---------------------------------
 
   # 163
