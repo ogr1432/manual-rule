@@ -6,7 +6,6 @@ payload:
   # bilibili 调度域名
   - DOMAIN,dataflow.biliapi.com
   - IP-CIDR,203.107.1.0/24,no-resolve
-
   
   # investing 代理(streaming 实时数据行情接口)
   - DOMAIN-SUFFIX,investing.com
@@ -56,7 +55,9 @@ payload:
   - DOMAIN,ip.sb
   - DOMAIN,ident.me
   - DOMAIN,ip-api.com
-  
+
+  # Windy
+  - DOMAIN-SUFFIX,windy.com
   
   # mylist以上为自添加---------------------------------
   
