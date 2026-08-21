@@ -21,6 +21,9 @@ payload:
   # PerimeterX (HUMAN Security)
   - DOMAIN-KEYWORD,perimeterx
 
+  # windy直连
+  - DOMAIN-SUFFIX,windy.com
+  
   # 第三方隐私合规和风险管理
   - DOMAIN-SUFFIX,onetrust.com
   
