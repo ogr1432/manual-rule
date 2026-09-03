@@ -7,7 +7,7 @@ payload:
   - DOMAIN-SUFFIX,maerskline.com
   
   # NAS
-  - DOMAIN-SUFFIX,edge.api.myqnapcloud.com
+  - DOMAIN-SUFFIX,edge.api.myqnapcloud.tra
   - DOMAIN-SUFFIX,qnap.com
   - DOMAIN-SUFFIX,myqnapcloud.com
   - DOMAIN-SUFFIX,checkip.synology.com
