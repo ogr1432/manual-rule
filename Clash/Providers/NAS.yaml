@@ -36,9 +36,6 @@ payload:
   - DOMAIN,cn.investing.com
   - DOMAIN,tvc-invdn-cf-com.investing.com
 
-  # Tradingview
-  - DOMAIN-SUFFIX,tradingview.com
-
   # 节点域名强制直连
   - DOMAIN-SUFFIX,mojcn.com
   - DOMAIN-SUFFIX,cnmjcn.cyou
