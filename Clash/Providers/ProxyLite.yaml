@@ -10,6 +10,9 @@ payload:
   # investing 代理(streaming 实时数据行情接口)
   - DOMAIN-SUFFIX,investing.com
   - DOMAIN-SUFFIX,forexpros.com
+
+  # Tradingview
+  - DOMAIN-SUFFIX,tradingview.com
   
   # Revanced
   - DOMAIN,api.revanced.app
