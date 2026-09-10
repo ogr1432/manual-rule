@@ -32,10 +32,6 @@ payload:
   - DOMAIN-SUFFIX,oraclecloud.com
   - DOMAIN-KEYWORD,oracle
 
-  # investing直连
-  - DOMAIN,cn.investing.com
-  - DOMAIN,tvc-invdn-cf-com.investing.com
-
   # 节点域名强制直连
   - DOMAIN-SUFFIX,mojcn.com
   - DOMAIN-SUFFIX,cnmjcn.cyou
