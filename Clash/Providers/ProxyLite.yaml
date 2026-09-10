@@ -11,6 +11,10 @@ payload:
   - DOMAIN-SUFFIX,investing.com
   - DOMAIN-SUFFIX,forexpros.com
 
+  # investing直连（原来在NAS.yaml直连，被屏蔽后移过来ProxyLite）
+  - DOMAIN,cn.investing.com
+  - DOMAIN,tvc-invdn-cf-com.investing.com
+
   # Tradingview
   - DOMAIN-SUFFIX,tradingview.com
   
