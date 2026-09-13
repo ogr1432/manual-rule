@@ -17,6 +17,9 @@ payload:
   - DOMAIN-SUFFIX,account.synology.com
   - DOMAIN-SUFFIX,synologydownload.com
 
+  # 远程协助域名
+  - DOMAIN-SUFFIX,rustdesk.com
+
   # emby公益服
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,goemby.entertang.work
