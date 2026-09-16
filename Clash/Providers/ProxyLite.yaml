@@ -14,6 +14,11 @@ payload:
   # investing直连（原来在NAS.yaml直连，被屏蔽后移过来ProxyLite）
   - DOMAIN,cn.investing.com
   - DOMAIN,tvc-invdn-cf-com.investing.com
+  - DOMAIN-SUFFIX,primis.tech
+  - DOMAIN-SUFFIX,pbxai.com
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN-SUFFIX,taboola.com
+  - DOMAIN-SUFFIX,outbrain.com
 
   # Tradingview
   - DOMAIN-SUFFIX,tradingview.com
