@@ -3,6 +3,9 @@ payload:
   
   # mylist以上为自添加-----------------------------
 
+  # google搜索时的不知道什么域名
+  -DMAIN,n1.chrome-api.com
+
   # bilibili 调度域名
   - DOMAIN,dataflow.biliapi.com
   - IP-CIDR,203.107.1.0/24,no-resolve
