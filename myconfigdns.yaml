@@ -116,9 +116,9 @@ dns:
     - +.emby.yusen.cc.cd
 
 proxy-groups:
-  - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
   - {name: 🌍 国外媒体, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 💬 Ai平台, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
   - {name: 📲 电报信息, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🌍 审计资讯, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🎯 全球直连, type: select, proxies: [DIRECT, 🚀 节点选择]}
