@@ -12,21 +12,6 @@ payload:
   - DOMAIN,dataflow.biliapi.com
   - IP-CIDR,203.107.1.0/24,no-resolve
   
-  # investing 代理(streaming 实时数据行情接口)
-  - DOMAIN-SUFFIX,investing.com
-  - DOMAIN-SUFFIX,forexpros.com
-
-  # investing直连（原来在NAS.yaml直连，被屏蔽后移过来ProxyLite）
-  - DOMAIN,cn.investing.com
-  - DOMAIN-SUFFIX,primis.tech
-  - DOMAIN-SUFFIX,pbxai.com
-  - DOMAIN-SUFFIX,hotjar.com
-  - DOMAIN-SUFFIX,taboola.com
-  - DOMAIN-SUFFIX,outbrain.com
-
-  # Tradingview
-  - DOMAIN-SUFFIX,tradingview.com
-  
   # Revanced
   - DOMAIN,api.revanced.app
   - DOMAIN-SUFFIX,revanced.app
