@@ -1,25 +1,7 @@
 payload:
   # 内容：Gemini
   
-  # 注意：tvc-invdn-cf-com.investing.com 此域名为investing 图表域名，由于CF验证IP太脏不过已移到AI组，统一采用干净点的IP
-  # 额外加入了一条 investing 图表的域名， 网页F12界面-网络，搜索tvc，查看init.php 响应标头： 其中：server: cloudflare：表示这次响应由 Cloudflare 服务器返回；cf-mitigated: challenge：表示 Cloudflare 对这次请求施加了挑战；cf-ray：是 Cloudflare 为该请求生成的追踪编号。
-  - DOMAIN,tvc-invdn-cf-com.investing.com
-  
-  # investing 代理(streaming 实时数据行情接口)
-  - DOMAIN-SUFFIX,investing.com
-  - DOMAIN-SUFFIX,forexpros.com
 
-  # investing直连（原来在NAS.yaml直连，被屏蔽后移过来ProxyLite）
-  - DOMAIN,cn.investing.com
-  - DOMAIN-SUFFIX,primis.tech
-  - DOMAIN-SUFFIX,pbxai.com
-  - DOMAIN-SUFFIX,hotjar.com
-  - DOMAIN-SUFFIX,taboola.com
-  - DOMAIN-SUFFIX,outbrain.com
-
-  # Tradingview
-  - DOMAIN-SUFFIX,tradingview.com
-  
   # === 1. 静态资源大包揽（用 SUFFIX 一劳永逸） ===
   - DOMAIN-SUFFIX,gstatic.com
   # === Gemini 核心服务与官方域名 ===
