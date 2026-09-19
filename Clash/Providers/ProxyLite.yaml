@@ -2,8 +2,6 @@ payload:
   # 代理列表
   
   # mylist以上为自添加-----------------------------
-  # 注意：tvc-invdn-cf-com.investing.com 此域名为investing 图表域名，由于CF验证IP太脏不过已移到AI组，统一采用干净点的IP
-
 
   # google搜索时的不知道什么域名
   - DOMAIN,n1.chrome-api.com
