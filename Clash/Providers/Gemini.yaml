@@ -1,5 +1,7 @@
 payload:
   # 内容：Gemini
+  
+  # 注意：tvc-invdn-cf-com.investing.com 此域名为investing 图表域名，由于CF验证IP太脏不过已移到AI组，统一采用干净点的IP
   # 额外加入了一条 investing 图表的域名，以防其不通过CF验证 网页F12界面-网络，搜索tvc，查看init.php 响应标头： 其中：server: cloudflare：表示这次响应由 Cloudflare 服务器返回；cf-mitigated: challenge：表示 Cloudflare 对这次请求施加了挑战；cf-ray：是 Cloudflare 为该请求生成的追踪编号。
   - DOMAIN,tvc-invdn-cf-com.investing.com
   
