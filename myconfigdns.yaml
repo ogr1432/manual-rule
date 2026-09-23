@@ -121,6 +121,7 @@ proxy-groups:
   - {name: 🚀 节点选择, type: select, use: [pq, mj], proxies: []}
   - {name: 📲 电报信息, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
   - {name: 🌍 审计资讯, type: select, use: [pq, mj], proxies: [🚀 节点选择, 🎯 全球直连]}
+  - {name: 📽️ 公益服, type: select, use: [pq, mj], proxies: [🌍 国外媒体, 🚀 节点选择, 🎯 全球直连]}
   - {name: 🎯 全球直连, type: select, proxies: [DIRECT, 🚀 节点选择]}
   - {name: 🛑 全球拦截, type: select, proxies: [REJECT, DIRECT]}
   - {name: 🍃 应用净化, type: select, proxies: [REJECT, DIRECT]}
@@ -146,6 +147,7 @@ rules:
   - RULE-SET,Bloomberg,🌍 审计资讯
   - RULE-SET,Proxylite,🚀 节点选择
   - RULE-SET,GoogleFCM,🚀 节点选择
+  - RULE-SET,Emby,📽️ 公益服
   - GEOIP,LAN,🎯 全球直连,no-resolve
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
@@ -175,3 +177,4 @@ rule-providers:
   Bloomberg: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/Bloomberg.yaml"}
   Proxylite: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/ProxyLite.yaml"}
   GoogleFCM: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"}
+https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Emby.yaml
