@@ -292,7 +292,7 @@ payload:
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ai
   - DOMAIN-SUFFIX,missav.ws
-  - DMOAIN-SUFFIX,.missav.live
+  - DOMAIN-SUFFIX,.missav.live
 
   # KKBOX
   - DOMAIN-SUFFIX,kfs.io
