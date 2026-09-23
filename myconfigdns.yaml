@@ -177,4 +177,4 @@ rule-providers:
   Bloomberg: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/Bloomberg.yaml"}
   Proxylite: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Providers/ProxyLite.yaml"}
   GoogleFCM: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"}
-https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Emby.yaml
+  Emby: { <<: *class, url: "https://raw.githubusercontent.com/ogr1432/manual-rule/main/Clash/Emby.yaml"}
