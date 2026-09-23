@@ -31,4 +31,12 @@ payload:
 
   # Tradingview
   - DOMAIN-SUFFIX,tradingview.com
+ 
+  # emby公益服(只分流，不跑流量)
+  - DOMAIN-SUFFIX,yusen6.ccwu.cc
+  - DOMAIN-SUFFIX,yusen.us.ci
+  - DOMAIN-SUFFIX,yusen.cyou
+  - DOMAIN-SUFFIX,yusen.cc.cd
+   
+  
   
