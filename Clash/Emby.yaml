@@ -5,3 +5,6 @@ payload:
   - DOMAIN-SUFFIX,yusen.us.ci
   - DOMAIN-SUFFIX,yusen.cyou
   - DOMAIN-SUFFIX,yusen.cc.cd
+
+   # IP 地址规则 (确保 IP 后缀是 /32 表示单台主机)
+  - IP-CIDR,103.231.56.166/32,no-resolve
