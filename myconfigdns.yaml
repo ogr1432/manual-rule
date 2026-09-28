@@ -13,7 +13,7 @@ proxy-providers:
     proxy: 🎯 全球直连
 
   mj:
-    url: "https://47.112.97.173:5000/api/v1/client/subscribe?token=e2014b85bccbd5ce49734af632b84862"
+    url: "https://47.242.128.61:5000/api/v1/client/subscribe?token=e2014b85bccbd5ce49734af632b84862"
     type: http
     filter: "(?i)新加坡|日本|美国|台湾|韩国"
     interval: 43200
