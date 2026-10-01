@@ -24,7 +24,9 @@ payload:
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
-  
+  - DOMAIN-SUFFIX,media.emby.pro
+
+   
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
   - DOMAIN,stun.cloudflare.com
