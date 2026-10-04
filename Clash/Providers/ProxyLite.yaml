@@ -62,7 +62,7 @@ payload:
   - DOMAIN-SUFFIX,windy.com
 
   # 磐正
-  - DOMAIN,supox.cn
+  - DOMAIN-SUFFIX,supox.cn
   
   # mylist以上为自添加---------------------------------
   
