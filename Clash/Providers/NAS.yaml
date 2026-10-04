@@ -25,6 +25,7 @@ payload:
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
   - DOMAIN-SUFFIX,emby.pro
+  - DOMAIN-SUFFIX,sfcj.org
    
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
