@@ -60,6 +60,9 @@ payload:
 
   # Windy
   - DOMAIN-SUFFIX,windy.com
+
+  # 磐正
+  - DOMAIN,supox.cn
   
   # mylist以上为自添加---------------------------------
   
