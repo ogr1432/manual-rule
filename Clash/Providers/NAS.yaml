@@ -24,8 +24,8 @@ payload:
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
+  
   # 非越媒体库
-  #推流地址 - DOMAIN-SUFFIX,emby.pro
   - DOMAIN-SUFFIX,sfcj.org
    
   # cloudflare验证相关
