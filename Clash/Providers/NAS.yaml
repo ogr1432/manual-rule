@@ -24,7 +24,7 @@ payload:
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
   # nyamdia 加入直连可能播不起
-  - DOMAIN-SUFFIX,emby.bangumi.ca
+  - DOMAIN-SUFFIX,bangumi.ca
   
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
