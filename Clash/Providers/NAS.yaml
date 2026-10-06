@@ -21,7 +21,6 @@ payload:
   - DOMAIN-SUFFIX,rustdesk.com
 
   # emby公益服
-  - DOMAIN,emby.bangumi.ca
   - DOMAIN,goemby.entertang.work
   - DOMAIN-SUFFIX,feimu.tv
   
