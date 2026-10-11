@@ -2,6 +2,13 @@ payload:
 
   # emby公益服
 
+  # ETFLIX EMBY
+  - DOMAIN,goemby.entertang.work
+
+  # 飞幕
+  - DOMAIN-SUFFIX,feimu.tv
+
+
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
 
