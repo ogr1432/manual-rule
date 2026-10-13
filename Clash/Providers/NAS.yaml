@@ -4,6 +4,7 @@ payload:
 
   # 解决 investing 弹关闭广告提示窗
   - DOMAIN-SUFFIX,doubleverify.com
+  - DOMAIN-SUFFIX,moatads.com
 
   # Carriers
   - DOMAIN-SUFFIX,maersk.com
