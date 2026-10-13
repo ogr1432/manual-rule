@@ -6,6 +6,8 @@ payload:
   - DOMAIN-SUFFIX,doubleverify.com
   - DOMAIN-SUFFIX,moatads.com
 
+  - DOMAIN-SUFFIX,adsrvr.org
+
   # Carriers
   - DOMAIN-SUFFIX,maersk.com
   - DOMAIN-SUFFIX,maerskline.com
