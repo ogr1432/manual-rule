@@ -22,6 +22,9 @@ payload:
 
   # emby公益服
   
+  # 非越媒体库
+  - DOMAIN-SUFFIX,sfcj.org
+  
   # nyamdia 加入直连可能播不起
   - DOMAIN-SUFFIX,bangumi.ca
 
