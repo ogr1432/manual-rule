@@ -8,9 +8,6 @@ payload:
   # 飞幕
   - DOMAIN-SUFFIX,feimu.tv
 
-  # 非越媒体库
-  - DOMAIN-SUFFIX,sfcj.org
-
   # Emby公益服要求代理
   # 非越媒体库推流地址
   - DOMAIN-SUFFIX,emby.pro
