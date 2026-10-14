@@ -22,6 +22,11 @@ payload:
 
   # emby公益服
   
+  #予初
+  - DOMAIN-SUFFIX,yusen6.ccwu.cc
+  - DOMAIN-SUFFIX,yusen.us.ci
+  - DOMAIN-SUFFIX,yusen.cyou
+  - DOMAIN-SUFFIX,yusen.cc.cd
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
   
