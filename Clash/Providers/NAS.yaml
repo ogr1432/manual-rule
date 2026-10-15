@@ -35,7 +35,6 @@ payload:
   
   # nyamdia 加入直连可能播不起
   - DOMAIN-SUFFIX,bangumi.ca
-
    
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
