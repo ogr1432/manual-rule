@@ -1,7 +1,6 @@
 payload:
 
   # emby公益服
-
   # ETFLIX EMBY
   - DOMAIN,goemby.entertang.work
 
@@ -9,8 +8,6 @@ payload:
   - DOMAIN-SUFFIX,feimu.tv
 
   # Emby公益服要求代理
-  
-
 
   # IP 地址规则 (确保 IP 后缀是 /32 表示单台主机)
   - IP-CIDR,103.231.56.166/32,no-resolve
