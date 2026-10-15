@@ -30,8 +30,6 @@ payload:
   
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
-  # 非越媒体库推流地址(要求加代理)
-  - DOMAIN-SUFFIX,emby.pro
   
   # nyamdia 加入直连可能播不起
   - DOMAIN-SUFFIX,bangumi.ca
