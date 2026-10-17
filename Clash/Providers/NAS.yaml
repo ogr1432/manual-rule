@@ -1,7 +1,8 @@
 payload:
   # DNS
   - DOMAIN-SUFFIX,doh.pub
-
+  - DOMAIN-SUFFIX,doh.pubdefault
+  
   # Carriers
   - DOMAIN-SUFFIX,maersk.com
   - DOMAIN-SUFFIX,maerskline.com
