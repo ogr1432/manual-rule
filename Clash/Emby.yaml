@@ -9,7 +9,7 @@ payload:
 
   # Emby公益服要求代理
   # 非越媒体库推流地址(要求加代理)
-  # - DOMAIN-SUFFIX,emby.pro
+  - DOMAIN-SUFFIX,emby.pro
   
   # IP 地址规则 (确保 IP 后缀是 /32 表示单台主机)
   - IP-CIDR,103.231.56.166/32,no-resolve
