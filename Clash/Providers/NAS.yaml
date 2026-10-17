@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,rustdesk.com
 
   # emby公益服
+  - DOMAIN-SUFFIX,emby.pro
   
   #予初
   - DOMAIN,13.yusen.cyou
