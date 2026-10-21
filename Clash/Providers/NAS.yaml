@@ -22,6 +22,9 @@ payload:
   # 远程协助域名
   - DOMAIN-SUFFIX,rustdesk.com
 
+  # Emby播放器
+  - DOMAIN,api.hills.im
+
   # emby公益服
   
   #予初
