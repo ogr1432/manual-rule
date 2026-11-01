@@ -36,6 +36,7 @@ payload:
   
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
+  - DOMAIN,media.emby.pro
   
   # nyamdia 加入直连可能播不起
   - DOMAIN-SUFFIX,bangumi.ca
