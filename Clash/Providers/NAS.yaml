@@ -36,6 +36,7 @@ payload:
   
   # 非越媒体库
   - DOMAIN-SUFFIX,sfcj.org
+  # 非越媒体库(推流服务器地址，公益服要求加入代理列表)
   - DOMAIN,media.emby.pro
   
   # nyamdia 加入直连可能播不起
