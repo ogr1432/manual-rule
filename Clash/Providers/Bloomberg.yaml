@@ -29,5 +29,8 @@ payload:
   - DOMAIN-SUFFIX,taboola.com
   - DOMAIN-SUFFIX,outbrain.com
 
+  # investing 弹关去广告插件（暂时允许排查是否还弹）
+  - DOMAIN-SUFFIX,doubleclick.net
+
   # Tradingview
   - DOMAIN-SUFFIX,tradingview.com
