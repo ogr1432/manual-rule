@@ -44,6 +44,9 @@ payload:
 
   # 9527
   - DOMAIN,emby.9527.new.tg
+
+  # 练习生的日常 (bot：周三晚医疗)
+  - DOMAIN,https://thxnk.cc
    
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
