@@ -41,8 +41,8 @@ payload:
   
   # nyamdia 加入直连可能播不起
   - DOMAIN-SUFFIX,bangumi.ca
-
   # 9527
+  - DOMAIN-SUFFIX,emby.9527.new.tg
   - DOMAIN,emby.9527.new.tg
 
   # 练习生的日常 (bot：周三晚医疗)
