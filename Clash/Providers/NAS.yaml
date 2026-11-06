@@ -22,7 +22,6 @@ payload:
   # 远程协助域名
   - DOMAIN-SUFFIX,rustdesk.com
 
-
   # 欧乐影院
   - DOMAIN-SUFFIX,yuntongclouds.com
   
