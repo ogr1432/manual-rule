@@ -23,13 +23,12 @@ payload:
   - DOMAIN-SUFFIX,rustdesk.com
 
   # 欧乐影院
-  - DOMAIN-SUFFIX,yuntongclouds.com
+  - DOMAIN,cloud.yuntongclouds.com
   
   # Emby播放器
   - DOMAIN,api.hills.im
 
   # emby公益服
-  
   #予初
   - DOMAIN,13.yusen.cyou
   - DOMAIN,aaa.yusen6.ccwu.cc
