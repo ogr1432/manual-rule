@@ -22,6 +22,10 @@ payload:
   # 远程协助域名
   - DOMAIN-SUFFIX,rustdesk.com
 
+
+  # 欧乐影院
+  - DOMAIN-SUFFIX,yuntongclouds
+  
   # Emby播放器
   - DOMAIN,api.hills.im
 
