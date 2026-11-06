@@ -24,7 +24,7 @@ payload:
 
 
   # 欧乐影院
-  - DOMAIN-SUFFIX,yuntongclouds
+  - DOMAIN-SUFFIX,yuntongclouds.com
   
   # Emby播放器
   - DOMAIN,api.hills.im
