@@ -52,6 +52,7 @@ payload:
 
   # 略略略Emby
   - DOMAIN-SUFFIX,5671234.xyz
+  - DOMAIN-SUFFIX,cloudflarestorage.com
    
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
