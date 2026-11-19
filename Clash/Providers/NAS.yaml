@@ -79,6 +79,7 @@ payload:
   # 影视站
   - DOMAIN-SUFFIX,btsj6.com
   - DOMAIN,imgb.anycip.com
+  - DOMAIN,bucket.usemarkt.xyz
 
   # 解决ssh 22端口无法连接
   - DST-PORT,22
