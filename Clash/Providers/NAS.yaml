@@ -49,6 +49,9 @@ payload:
 
   # 练习生的日常 (bot：周三晚医疗)
   - DOMAIN-SUFFIX,thxnk.cc
+
+  # 略略略Emby
+  - DOMAIN-SUFFIX,5671234.xyz
    
   # cloudflare验证相关
   - DOMAIN,ax.cloudflare.dev
