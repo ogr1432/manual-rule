@@ -47,6 +47,7 @@ payload:
   # 9527
   - DOMAIN-SUFFIX,emby.9527.new.tg
   - DOMAIN,emby.9527.new.tg
+  - DOMAIN,emby.9ll.kdns.fr
 
   # 练习生的日常 (bot：周三晚医疗)
   - DOMAIN-SUFFIX,thxnk.cc
